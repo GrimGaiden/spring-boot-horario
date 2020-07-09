@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AppController {
 
-    @Value("${config.horario.cierre}")
+    @Value("${config.horario.apertura}")
     private Integer apertura;
 
     @Value("${config.horario.cierre}")
